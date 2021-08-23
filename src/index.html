@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TK omregner</title>
+    <link rel="stylesheet" href="css/main.scss">
+  </head>
+  <body>
+    <section class="hero is-medium is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-8-desktop is-offset-2-desktop">
+              <h1 class="title is-2 is-spaced">
+                Omregner for TK minutter
+              </h1>
+              <h2 class="subtitle is-4">
+                Denne siden hjelper deg å regne om mellom TK-minutter og standard minutter.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-8-desktop is-offset-2-desktop">
+            <div class="content">
+              <h3>Hva er TK minutter?</h3>
+              <p>
+                Et TK minutt er 0.875 standard minutter.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-6">
+            <div class="field">
+              <label class="label">Standard minutt</label>
+              <div class="control">
+                <input id="standard-min" class="input" type="number" placeholder="Standard minutt" value="1">
+              </div>
+            </div>
+          </div>
+          <div class="column is-6">
+            <div class="field">
+              <label class="label">TK minutt</label>
+              <div class="control">
+                <input id="tk-min" class="input" type="number" placeholder="TK minutt" value="0.875" step="1">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="lib/main.ts"></script>
+  </body>
+</html>
